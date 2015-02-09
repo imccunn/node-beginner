@@ -1,0 +1,33 @@
+{
+  "name": "node_beginner",
+  "version": "0.1.0",
+  "description": "A simple node app that uploads files.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "formidable": "^1.0.16",
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "formidable": "^1.0.16",
+    "mocha": "^2.1.0",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mcfun/node-beginner.git"
+  },
+  "author": "Ian McCunn <ianmccunn@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mcfun/node-beginner/issues"
+  },
+  "homepage": "https://github.com/mcfun/node-beginner"
+}
